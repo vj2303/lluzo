@@ -31,9 +31,9 @@ const Form = () => {
       })
       reset()
       Swal.fire({
-        title: 'Thank you for submitting Our team will get in touch with you shortly in the mean while you can call or whatsapp 8879949404',
+       title: 'Thank you for submitting. Our team will get in touch with you shortly. In the meantime, you can call or WhatsApp us at:',
         icon: 'success',
-        html: '',
+        html: '<a href="https://api.whatsapp.com/send?phone=918879949404" target="_blank" style="color: #007bff; text-decoration: none;">+91-8879949404</a>',
         showConfirmButton: true,
         allowOutsideClick: true,
         confirmButtonText: "Ok"
